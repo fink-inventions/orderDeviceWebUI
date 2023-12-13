@@ -1,0 +1,54 @@
+
+body {
+    background-color: rgb(200, 194, 194);
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.guestButtons {
+    text-align: center;
+}
+
+button {
+    width: 80px;
+}
+input {
+    width: 50px;
+}
+/* Zuweisung der Farben zu den Buttons nach ihrem Namen */
+button[name="Helles"] {
+    background-color: red;
+}
+
+button[name="Weizen"] {
+    background-color: yellow;
+}
+
+button[name="Wasser"] {
+    background-color: rgb(151, 151, 244);
+    
+}
+
+button[name="Spezi"] {
+    background-color: rgb(66, 242, 66);
+}
+
+button[name="Mass"] {
+    background-color: rgb(240, 173, 49);
+}
+
+button[name="GinTonic"] {
+    background-color: white;
+    color: black; /* Textfarbe für bessere Lesbarkeit */
+}
+
+button[name="Schorle"] {
+    background-color: pink;
+}
