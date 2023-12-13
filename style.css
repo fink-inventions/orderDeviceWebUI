@@ -15,7 +15,9 @@ p {
 .guestButtons {
     text-align: center;
 }
-
+.drinkButtons {
+    text-align: center;
+}
 button {
     width: 80px;
 }
